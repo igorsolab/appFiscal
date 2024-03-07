@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    overflow: scroll!important;
+}
+thead > tr > th {
+  background-color: #1fac61!important;
+  color: #fff!important;
+  padding: 9px!important;
+}
+thead > tr{
+  position:sticky;
+  z-index: 99;
+  top: 0;
+}
+
+.tabela_contribuicoes{
+    font-size: 14px!important;
+}
+
+.tabela_contribuicoes th.fixed-table,
+.tabela_contribuicoes td.fixed-table {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.tabela_contribuicoes th.id-table,
+.tabela_contribuicoes td.id-table {
+  width: 60px;
+}
+
+.tabela_contribuicoes th.desc-table,
+.tabela_contribuicoes td.desc-table {
+  min-width: 600px;
+}
+
+.title-fixed {
+    position: sticky!important;
+    left:0;
+    top: 39px;
+    z-index: 99;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.lojas-row{
+    min-width: 100px;
+}
+
+.btn-custom-excel{
+  background-color: #1fac61;
+  color: #fff;
+}
+.btn-custom-excel:hover{
+  background-color: #17683d;
+  color: #fff;
+}
+
+.btn-custom-excel:active{
+  background-color: #0b301c;
+  color: #fff;
+}
+
+/* SPINNER */
+
+.spinner-green {
+  color: #17683d;
+}
+
+/* CARD INICIAL */
+
+
+.card-filtro{
+  width: 300px;
+}
+
+
+.card-header {
+  background-color:#1fac61!important;
+  color: #fff!important;
+}
+
+/* .btn-primary {
+  background-color: #1fac61!important;
+  border: #1fac61!important;
+  color: #fff!important;
+}
+
+.btn-primary:hover{
+  background-color: #17643b!important;
+  color: #fff!important;
+} */
+
+
+.custom-message-alert{
+  font-size:12px;
+  color:red;
+}
